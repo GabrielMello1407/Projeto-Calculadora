@@ -1,0 +1,13 @@
+.calculator{
+    height: 320px;
+    width: 235px;
+    border: 5px;
+    overflow: hidden;
+
+    /*Overflow hidden*/
+    display: grid;
+    /*Quantidade de colunas e tamanho que ocupa*/
+    grid-template-columns: repeat(4,25%);
+    /*deixar as linhas do mesmo tamanho 1fr é o framento do display*/
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
